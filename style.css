@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+        font-family: Arial, sans-serif;
+        margin: 10px;
+        padding: 10px;
+        background-color: #f3dbef7c;
+    }
+    header {
+        background-color: #ff8009;
+        padding: 20px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 5px;
+        position: sticky;
+        top: 0;
+    }
+    a {
+        color: #fff;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+        
+    }
+
+    h1 {
+        color: #204fce;
+        font-size: 24px;
+        font-family: Arial, sans-serif;
+    }
+    #post1 {
+        border: 1px solid #f30c0c;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: justify;
+        background-color: #ff8009;
+
+    }
+    #post2{
+        border: 10px solid #f30c0c;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: justify;
+    }  
+
+    .class-section {
+        border: 1px solid #f30c0c;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        text-decoration: justify;
+        background-color: #ff8009;
+    }
+    .parent >p {
+        color: #204fce;
+        font-size: 20px;
+        font-family: Arial, sans-serif;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid #000000;
+        border-collapse: collapse;
+        margin-top: 20px;
+        line-height: 50px;
+        text-align: center;
+    }
+    tbody {
+        background-color: #b84040;
+    }
+    tr {
+        border: 1px solid #000000;
+    }
+    button {
+        background-color: #ff8009;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 5px;
+
+    }
+    .section {
+        margin: 20px 0;
+        padding: 20px;
+        background-color: #f3dbef7c;
+        border: 1px solid #f30c0c;
+        border-radius: 5px;
+    }
